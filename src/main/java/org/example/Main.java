@@ -36,7 +36,7 @@ public class Main {
         tm.put(3, "three");
         tm.put(1, "one");
         tm.put(2, "two");
-        tm.isEmpty();
+        ou.log(Level.INFO,()->""+tm.isEmpty());
         ou.log(Level.INFO,()->""+tm);
 
 
